@@ -1,0 +1,19 @@
+{
+  "name": "lightainer-marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace for Lightainer. Find, install and develop modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lightainer-Project/marketplace.git"
+  },
+  "author": "Niklas Lausch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lightainer-Project/marketplace/issues"
+  },
+  "homepage": "https://github.com/Lightainer-Project/marketplace#readme"
+}
