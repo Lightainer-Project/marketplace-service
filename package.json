@@ -4,7 +4,9 @@
   "description": "Marketplace for Lightainer. Find, install and develop modules.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Lightainer-Project/marketplace/issues"
   },
-  "homepage": "https://github.com/Lightainer-Project/marketplace#readme"
+  "homepage": "https://github.com/Lightainer-Project/marketplace#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/mongoose": "^5.5.32"
+  }
 }
